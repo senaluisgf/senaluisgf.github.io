@@ -20,7 +20,6 @@ body {
   --text-black-900: #343361;
   --text-black-700: #504e70;
 }
-
 ::before, ::after {
   box-sizing: border-box;
 }
@@ -30,6 +29,39 @@ section {
   left: 270px;
   padding: 0 30px;
   opacity: 1;
+}
+section .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.section-title h2 {
+  font-size: 40px;
+  color: var(--text-black-900);
+  font-weight: 700;
+  position: relative;
+}
+.section-title h2::before {
+  content: '';
+  height: 4px;
+  width: 50px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.section-title h2::after {
+  content: '';
+  height: 4px;
+  width: 25px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
 }
 .main-content {
   padding-left: 270px;
