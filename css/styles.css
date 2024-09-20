@@ -20,6 +20,9 @@ body {
   --text-black-900: #343361;
   --text-black-700: #504e70;
 }
+/* .hidden {
+  display: none !important;
+} */
 ::before, ::after {
   box-sizing: border-box;
 }
@@ -37,6 +40,7 @@ section .container {
 .section-title {
   flex: 0 0 100%;
   max-width: 100%;
+  margin-bottom: 60px;
 }
 .section-title h2 {
   font-size: 40px;
