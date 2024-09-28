@@ -142,3 +142,24 @@
   border-radius: 50%;
   background-color: var(--skin-color);
 }
+.about .about-content .timeline .timeline-date {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-bottom: 12px;
+}
+.about .about-content .timeline .timeline-date .fa {
+  margin-right: 5px;
+}
+.about .about-content .timeline .timeline-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-black-900);
+  margin-bottom: 15px;
+}
+.about .about-content .timeline .timeline-text {
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--text-black-700);
+  text-align: justify;
+}
