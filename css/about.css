@@ -100,9 +100,9 @@
 }
 .about .about-content h3.title {
   font-size: 24px;
-   margin-bottom: 30px;
-   font-weight: 700;
-   color: var(--text-black-900);
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: var(--text-black-900);
 }
 .about .about-content .timeline-box {
   flex: 0 0 100%;
