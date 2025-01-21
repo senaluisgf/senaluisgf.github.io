@@ -139,6 +139,17 @@ nav .logo a span {
   font-family: 'Clicker Script', cursive;
   font-size: 40px;
 }
+nav .nav-toggler.open span {
+  background-color: transparent;
+}
+nav .nav-toggler.open span::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+nav .nav-toggler.open span::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
 nav .logo a::before {
   content: '';
   position: absolute;

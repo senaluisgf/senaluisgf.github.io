@@ -1,6 +1,13 @@
 @media (max-width: 1199px) {
-  .side-bar {
+  nav {
     left: -270px;
+  }
+  nav .nav-toggler {
+    display: flex;
+    left: 30px;
+  }
+  section {
+    left: 0;
   }
   .main-content {
     padding-left: 0;
@@ -41,4 +48,16 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+}
+
+nav.open {
+  left: 0;
+}
+
+nav .nav-toggler.open {
+  left: 300px;
+}
+
+section.open {
+  left: 270px;
 }
