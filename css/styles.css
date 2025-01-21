@@ -20,9 +20,7 @@ body {
   --text-black-900: #343361;
   --text-black-700: #504e70;
 }
-/* .hidden {
-  display: none !important;
-} */
+
 ::before, ::after {
   box-sizing: border-box;
 }
@@ -32,6 +30,27 @@ section {
   left: 270px;
   padding: 0 30px;
   opacity: 1;
+  position: fixed;
+  left: 270px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+section.active {
+  z-index: 2;
+  opacity: 1;
+  animation: slideSection 0.3s ease;
+}
+@keyframes slideSection {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 section .container {
   padding-top: 60px;
@@ -67,9 +86,9 @@ section .container {
   left: 0;
   margin-top: 8px;
 }
-.main-content {
+/* .main-content {
   padding-left: 270px;
-}
+} */
 .btn {
   font-size: 16px;
   font-weight: 500;
