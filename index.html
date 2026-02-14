@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./css/contact.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="./css/responsive.css">
-  
+
   <!-- style switcher -->
   <link rel="stylesheet" href="./css/skins/style-switcher.css">
   <link rel="stylesheet" href="./css/skins/color-1.css" class="alternate-style" title="color-1">
@@ -24,9 +24,7 @@
 </head>
 
 <body class="dark">
-  <!-- Conteúdo total da página -->
   <div class="main-container">
-    <!-- side-bar -->
     <nav class="side-bar">
       <div class="logo">
         <a href="#home"><span>S</span>ena</a>
@@ -43,7 +41,6 @@
       </ul>
     </nav>
 
-    <!-- conteúdo principal -->
     <div class="main-content">
       <section class="home active" id="home">
         <div class="container">
@@ -54,12 +51,13 @@
             <div class="home-info padd-15">
               <h3 class="hello">Hello, My name is <span class="name">Luís Sena</span></h3>
               <h3 class="my-profession">I'm a <span class="typing">Software Engineer</span></h3>
-              <p>I'm a software engineer with 4 years of experience. My expertise is to create websites and services
-                related</p>
+              <p>I'm a software engineer with <span id="age-work" data-first="2020-10-01"></span> years of experience.
+                My expertise is to create websites and related services
+               </p>
               <a href="#contact" class="btn hire-me">Hire Me</a>
             </div>
             <div class="home-img padd-15">
-              <img src="./assets/perfil ariel.jpeg" alt="Luis Sena profile picture">
+              <img src="./assets/caricatura.jpeg" alt="Luis Sena profile picture">
             </div>
           </div>
         </div>
@@ -77,10 +75,39 @@
             <div class="about-content padd-15">
               <div class="row">
                 <div class="about-text padd-15">
-                  <h3>I'm Luís Sena and <span>Software Engineer</span></h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non at libero vero consequatur!
-                    Cupiditate accusamus ex velit nulla tempore ea aliquid numquam placeat laboriosam ipsum veniam
-                    molestiae, minus cum.</p>
+                  <h3>"I want to make the world better, and I started by improving myself".</h3>
+                  <p>
+                    Software Engineer with strong experience in backend and full-stack development, focused on building
+                    scalable, reliable, and maintainable systems using TypeScript, Node.js, and React. Experienced in
+                    designing distributed architectures with microservices, Docker, PostgreSQL, and gRPC, applying
+                    Test-Driven Development (TDD) and clean architecture principles to ensure long-term system quality.
+                  </p>
+                  <p>
+                    I have worked on production systems at scale across multiple domains, including industrial
+                    automation,
+                    livestock management and internal enterprise platforms. My contributions prioritize performance,
+                    data
+                    correctness, and system reliability, translating complex requirements into simple, efficient
+                    engineering
+                    solutions with clear business impact.
+                  </p>
+                  <p>
+                    I value clear problem definition, data-driven decision making, and high engineering standards. I
+                    thrive
+                    in environments that encourage ownership, collaboration, and continuous improvement, where
+                    technology is
+                    used to solve challenging problems at scale.
+                  </p>
+                  <p><br>
+                    Technical Skills:<br>
+                    • TypeScript, Node.js (NestJS, KITA.js), .NET (C#), React<br>
+                    • Microservices, gRPC, Docker<br>
+                    • Git, CI/CD, containerized environments<br>
+                    • PostgreSQL, MongoDB, Prisma<br>
+                    • Computer Vision (Python, Yolov4)<br>
+                    • Test-Driven Development (TDD), Clean Architecture<br>
+                    • Agile methodologies (Scrum, Kanban)
+                  </p>
                 </div>
               </div>
 
@@ -88,10 +115,10 @@
                 <div class="personal-info padd-15">
                   <div class="row">
                     <div class="info-item padd-15">
-                      <p>Birthday : <span>18 Dec 1995</span></p>
+                      <p>Birthday : <span>Dec 18 1995</span></p>
                     </div>
                     <div class="info-item padd-15">
-                      <p>Age : <span>28</span></p>
+                      <p>Age : <span id="age" data-birth="1995-12-18"></span> years old</p>
                     </div>
                     <div class="info-item padd-15">
                       <p>Website : <span><a href="https://www.linkedin.com/in/senaluisgf/" target="_blank"
@@ -124,7 +151,7 @@
                 <div class="skills padd-15">
                   <div class="row">
                     <div class="skill-item padd-15">
-                      <h5>TypeScript</h5>
+                      <h5>Node.js</h5>
                       <div class="progress">
                         <div class="progress-in" style="width: 90%;">
                           <div class="skill-percent">90%</div>
@@ -132,15 +159,15 @@
                       </div>
                     </div>
                     <div class="skill-item padd-15">
-                      <h5>Angular</h5>
+                      <h5>Backend</h5>
                       <div class="progress">
-                        <div class="progress-in" style="width: 80%;">
-                          <div class="skill-percent">80%</div>
+                        <div class="progress-in" style="width: 90%;">
+                          <div class="skill-percent">90%</div>
                         </div>
                       </div>
                     </div>
                     <div class="skill-item padd-15">
-                      <h5>React</h5>
+                      <h5>Frontend</h5>
                       <div class="progress">
                         <div class="progress-in" style="width: 70%;">
                           <div class="skill-percent">70%</div>
@@ -152,6 +179,123 @@
               </div>
 
               <div class="row">
+                <div class="experience padd-15">
+                  <h3 class="title">Experience</h3>
+                  <div class="row">
+                    <div class="timeline-box padd-15">
+                      <div class="timeline shadow-dark">
+
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2025 - Present
+                          </h3>
+                          <h4 class="timeline-title">Grupo Multilase</h4>
+                          <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+                            esse numquam nobis,
+                            iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
+                            possimus! Ullam veritatis sit voluptas! Inventore!</p>
+                        </div>
+
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2022 - 2025
+                          </h3>
+                          <h4 class="timeline-title">Kasco Technology R&D</h4>
+                          <p class="timeline-text">
+                            <strong>Position:</strong> Mid-Level Software Engineer <br>
+                            <strong>Stack: </strong>TypeScript, KITA.js, React, Docker, Prisma, PostgreSQL <br>
+                            <strong>Project Description:</strong> Beef cattle feedlot management system <br><br>
+
+                            The project aimed to develop a comprehensive management platform for beef cattle feedlots,
+                            focusing on animal handling, feed production, and cost control. The system provided tools
+                            for tracking feed inventory, monitoring animal performance, and generating technical and
+                            financial performance indicators to optimize production efficiency. <br><br>
+
+                            As part of this project, I was responsible for requirements gathering and business rule
+                            definition, working directly with clients to translate operational challenges into software
+                            functionalities. This close collaboration ensured alignment between the system’s behavior
+                            and real-world agricultural needs. <br><br>
+
+                            As a backend developer, I implemented several business rules using the Test-Driven
+                            Development (TDD) methodology, ensuring high code quality and reliable test coverage. I also
+                            contributed to the system’s continuous delivery pipeline by managing release channels
+                            through tag-based versioning and automated deployment workflows. <br><br>
+
+                            Additionally, I provided direct customer support, fixing production issues and performing
+                            data correction and normalization within client databases. I also optimized
+                            performance-critical operations by migrating complex Prisma ORM queries to raw SQL, reducing
+                            response times in financial reports and large-scale endpoints handling millions of records.
+                            <br><br>
+
+                            To gain a deeper understanding of the domain, I visited several rural feedlot sites,
+                            collaborating with on-site teams to refine and adjust specific business rules.
+                          </p>
+                        </div>
+
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2021 - 2022
+                          </h3>
+                          <h4 class="timeline-title">Sidia</h4>
+                          <p class="timeline-text">
+                            <strong>Position</strong>: Software Engineer <br>
+                            <strong>Stack</strong>: .NET, C#, gRPC, Docker, PostgreSQL <br>
+                            <strong>Project Description:</strong> Internal employee and device management system
+                            <br><br>
+
+                            The project aimed to build a microservices-based internal management platform responsible
+                            for handling both employee data and company-owned devices such as computers, mobile phones,
+                            and industrial machines. The goal was to centralize access control, ensuring security,
+                            traceability, and efficient management of digital and physical assets. <br><br>
+
+                            I was responsible for developing the core structure of the User microservice, including its
+                            data model, API contracts, and communication protocols with the Device microservice through
+                            gRPC. Using .NET and Entity Framework with PostgreSQL, I implemented scalable data
+                            persistence and robust inter-service integration. <br><br>
+
+                            Throughout the development process, I focused on maintainability and consistency across
+                            services, implementing clear architectural patterns and Dockerized environments to
+                            streamline future deployments.
+                          </p>
+                        </div>
+
+                        <div class="timeline-item">
+                          <div class="circle-dot"></div>
+                          <h3 class="timeline-date">
+                            <i class="fa fa-calendar"></i> 2020 - 2021
+                          </h3>
+                          <h4 class="timeline-title">Instituto Transire</h4>
+                          <p class="timeline-text">
+                            <strong>Position:</strong> Software Development Intern <br>
+                            <strong>Stack:</strong> Node.js, TypeScript, NestJS, Angular 7, Kafka, MinIO, Python,
+                            MongoDB <br>
+                            <strong>Project Description:</strong> Automatic defect detection system for credit card
+                            machines <br><br>
+
+                            As a Software Development Intern, I contributed to the backend development of an automated
+                            defect detection platform designed to identify hardware issues in credit card machines. The
+                            system integrated computer vision and data storage solutions to improve quality control and
+                            production efficiency. <br><br>
+
+                            I was responsible for implementing business rules in NestJS related to defect categorization
+                            and managing the storage of training and classification datasets using MinIO and MongoDB. I
+                            also developed data handling routines to ensure consistency and scalability across different
+                            inspection processes. <br><br>
+
+                            In addition, I designed and trained an Automatic License Plate Recognition (ALPR) model
+                            using YOLOv4, enabling real-time vehicle detection and tracking for the company’s parking
+                            monitoring system. This solution enhanced internal security and automated vehicle entry and
+                            exit logging.
+                          </p>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="education padd-15">
                   <h3 class="title">Education</h3>
                   <div class="row">
@@ -164,9 +308,10 @@
                             <i class="fa fa-calendar"></i> 2016 - Present
                           </h3>
                           <h4 class="timeline-title">Degree in Computer Science</h4>
-                          <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse numquam nobis,
-                            iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
-                            possimus! Ullam veritatis sit voluptas! Inventore!</p>
+                          <p class="timeline-text">
+                            During my undergraduate program, I engaged in initiatives that strengthened my technical and
+                            scientific foundation.
+                          </p>
 
                           <div class="timeline-item" style="margin-top: 15px;">
                             <div class="circle-dot"></div>
@@ -174,9 +319,11 @@
                               <i class="fa fa-calendar"></i> 2017 - 2018
                             </h3>
                             <h4 class="timeline-title">PET Computação</h4>
-                            <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse numquam nobis,
-                              iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
-                              possimus! Ullam veritatis sit voluptas! Inventore!</p>
+                            <p class="timeline-text">
+                              I was a PET Computing scholarship holder, providing in-person mentoring and supporting
+                              extension projects led by Raimundo Barreto, improving my research, collaboration, and
+                              technical communication skills.
+                            </p>
                           </div>
 
                           <div class="timeline-item">
@@ -185,9 +332,10 @@
                               <i class="fa fa-calendar"></i> 2016 - 2017
                             </h3>
                             <h4 class="timeline-title">PIBIC</h4>
-                            <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse numquam nobis,
-                              iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
-                              possimus! Ullam veritatis sit voluptas! Inventore!</p>
+                            <p class="timeline-text">
+                              I researched algorithms for clustering users in online social networks based on structural
+                              evidence under the guidance of Altigran Soares da Silva.
+                            </p>
                           </div>
                         </div>
 
@@ -197,49 +345,6 @@
                             <i class="fa fa-calendar"></i> 2013 - 2015
                           </h3>
                           <h4 class="timeline-title">High School</h4>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="experience padd-15">
-                  <h3 class="title">Experience</h3>
-                  <div class="row">
-                    <div class="timeline-box padd-15">
-                      <div class="timeline shadow-dark">
-
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2022 - Present
-                          </h3>
-                          <h4 class="timeline-title">Kasco Technology R&D</h4>
-                          <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse numquam nobis,
-                            iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
-                            possimus! Ullam veritatis sit voluptas! Inventore!</p>
-                        </div>
-
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2021 - 2022
-                          </h3>
-                          <h4 class="timeline-title">Sidia</h4>
-                          <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse numquam nobis,
-                            iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
-                            possimus! Ullam veritatis sit voluptas! Inventore!</p>
-                        </div>
-
-                        <div class="timeline-item">
-                          <div class="circle-dot"></div>
-                          <h3 class="timeline-date">
-                            <i class="fa fa-calendar"></i> 2020 - 2021
-                          </h3>
-                          <h4 class="timeline-title">Instituto Transire</h4>
-                          <p class="timeline-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse numquam nobis,
-                            iusto, accusantium, natus eos iste amet provident dolor quidem voluptate non mollitia
-                            possimus! Ullam veritatis sit voluptas! Inventore!</p>
                         </div>
 
                       </div>
@@ -449,7 +554,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <div class="form-group">
@@ -457,7 +562,7 @@
                   </div>
                 </div>
               </div>
-    
+
               <div class="row">
                 <div class="form-item col-12 padd-15">
                   <button type="submit" class="btn">Send Message</button>
@@ -488,7 +593,9 @@
     </div>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+    integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./js/script.js"></script>
   <script src="./js/style-switcher.js"></script>
 </body>
