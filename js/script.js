@@ -1,10 +1,3 @@
-var typed = new Typed(".typing", {
-  strings: ["Software Engineer", "Web Developer", "Full Stack Developer", "Freelancer"],
-  typeSpeed: 100,
-  backSpeed: 60,
-  loop: true,
-});
-
 const nav = document.querySelector("nav"),
   navList = nav.querySelectorAll("li"),
   totalNavList = navList.length,
@@ -48,21 +41,3 @@ function navSectionToggleBtn() {
     allSections[i].classList.toggle("open");
   }
 }
-
-const ageEl = document.getElementById("age");
-const birth = new Date(ageEl.dataset.birth);
-const today = new Date();
-let age = today.getFullYear() - birth.getFullYear();
-const m = today.getMonth() - birth.getMonth();
-if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
-  age--;
-}
-ageEl.textContent = age;
-const ageWorkEl = document.getElementById("age-work");
-const first = new Date(ageWorkEl.dataset.first);
-let ageWork = today.getFullYear() - first.getFullYear();
-const mWork = today.getMonth() - first.getMonth();
-if (mWork < 0 || (mWork === 0 && today.getDate() < first.getDate())) {
-  ageWork--;
-}
-ageWorkEl.textContent = ageWork;

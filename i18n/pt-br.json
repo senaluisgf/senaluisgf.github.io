@@ -1,0 +1,29 @@
+{
+  "nav.home": "Início",
+  "nav.about": "Sobre",
+  "nav.services": "Serviços",
+  "nav.portfolio": "Portfólio",
+  "nav.contact": "Contato",
+  
+  "home.warning": "EM CONSTRUÇÃO",
+
+  "home.title": "Olá, Meu nome é Luís Sena",
+  "home.subtitle": "Sou um Engenheiro de Software",
+  "home.description": "Sou um engenheiro de software com 5 anos de experiência. Minha expertise é criar sites e serviços relacionados",
+  "home.hire-me": "Contratar-me",
+
+  "about.title": "Sobre mim",
+  "about.subtitle": "“Quero tornar o mundo melhor, começando por mim”.",
+  "about.description-paragraph-1": "Engenheiro de Software com sólida experiência em desenvolvimento backend e full stack, focado na construção de sistemas escaláveis, confiáveis e sustentáveis utilizando TypeScript, Node.js e React. Experiência no desenho de arquiteturas distribuídas com microserviços, Docker, PostgreSQL e gRPC, aplicando Test-Driven Development (TDD) e princípios de arquitetura limpa para garantir qualidade e evolução de longo prazo dos sistemas.",
+  "about.description-paragraph-2": "Atuei no desenvolvimento de sistemas em produção e em escala em múltiplos domínios, incluindo automação industrial, gestão pecuária e plataformas corporativas internas. Minhas contribuições priorizam performance, consistência dos dados e confiabilidade dos sistemas, traduzindo requisitos complexos em soluções de engenharia simples, eficientes e com impacto claro no negócio.",
+  "about.description-paragraph-3": "Valorizo definição clara de problemas, tomada de decisão orientada por dados e altos padrões de engenharia. Tenho melhor desempenho em ambientes que incentivam autonomia, colaboração e melhoria contínua, onde a tecnologia é utilizada para resolver problemas desafiadores em escala.",
+
+  "about.personal-informations.birthday.title": "Data de nascimento",
+  "about.personal-informations.birthday.value": "18 Dez 1995",
+  "about.personal-informations.age.title": "Idade",
+  "about.personal-informations.age.value": "30 anos",
+  "about.personal-informations.degree.title": "Graduação",
+  "about.personal-informations.degree.value": "Ciência da Computação",
+  "about.personal-informations.city.title": "Cidade",
+  "about.personal-informations.freelance.value": "Aberto a oportunidades"
+}

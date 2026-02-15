@@ -1,0 +1,29 @@
+{
+  "nav.home": "Accueil",
+  "nav.about": "À propos",
+  "nav.services": "Services",
+  "nav.portfolio": "Portfólio",
+  "nav.contact": "Contactez-moi",
+
+  "home.warning": "UNDER CONSTRUCTION",
+
+  "home.title": "Bonjour, Mon nom est Luís Sena",
+  "home.subtitle": "Je suis un Ingénieur Logiciel",
+  "home.description": "Je suis un ingénieur logiciel avec 5 ans d'expérience. Mon expertise est de créer des sites web et des services connexes",
+  "home.hire-me": "Engager-moi",
+
+  "about.title": "À propos",
+  "about.subtitle": "...",
+  "about.description-paragraph-1": "...",
+  "about.description-paragraph-2": "...",
+  "about.description-paragraph-3": "...",
+
+  "about.personal-informations.birthday.title": "---",
+  "about.personal-informations.birthday.value": "---",
+  "about.personal-informations.age.title": "---",
+  "about.personal-informations.age.value": "30 ans",
+  "about.personal-informations.degree.title": "---",
+  "about.personal-informations.degree.value": "---",
+  "about.personal-informations.city.title": "---",
+  "about.personal-informations.freelance.value": "---"
+}

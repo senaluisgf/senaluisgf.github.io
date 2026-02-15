@@ -1,0 +1,30 @@
+{
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.services": "Services",
+  "nav.portfolio": "Portfolio",
+  "nav.contact": "Contact",
+
+
+  "home.warning": "UNDER CONSTRUCTION",
+
+  "home.title": "Hello, My name is Luís Sena",
+  "home.subtitle": "I'm a Software Engineer",
+  "home.description": "I'm a software engineer with 5 years of experience. My expertise is to create websites and related services",
+  "home.hire-me": "Hire Me",
+
+  "about.title": "About me",
+  "about.subtitle": "\"I want to make the world better, and I started by improving myself\".",
+  "about.description-paragraph-1": "Software Engineer with strong experience in backend and full-stack development, focused on building scalable, reliable, and maintainable systems using TypeScript, Node.js, and React. Experienced in designing distributed architectures with microservices, Docker, PostgreSQL, and gRPC, applying Test-Driven Development (TDD) and clean architecture principles to ensure long-term system quality.",
+  "about.description-paragraph-2": "I have worked on production systems at scale across multiple domains, including industrial automation, livestock management and internal enterprise platforms. My contributions prioritize performance, data correctness, and system reliability, translating complex requirements into simple, efficient engineering solutions with clear business impact.",
+  "about.description-paragraph-3": "I value clear problem definition, data-driven decision making, and high engineering standards. I thrive in environments that encourage ownership, collaboration, and continuous improvement, where technology is used to solve challenging problems at scale.",
+  
+  "about.personal-informations.birthday.title": "Birthday",
+  "about.personal-informations.birthday.value": "Dec 18 1995",
+  "about.personal-informations.age.title": "Age",
+  "about.personal-informations.age.value": "30 years old",
+  "about.personal-informations.degree.title": "Degree",
+  "about.personal-informations.degree.value": "Computer Science",
+  "about.personal-informations.city.title": "City",
+  "about.personal-informations.freelance.value": "Open to work"
+}
