@@ -52,28 +52,36 @@
       <section class="contact" id="contact"></section>
     </div>
 
-    <div class="style-switcher">
-      <div class="style-switcher-toggler s-icon">
-        <i class="fas fa-cog fa-spin"></i>
+    <!-- Language Switcher -->
+    <div class="switcher-item language-switcher-container">
+      <div class="switcher-btn language-btn">
+        <span class="fi fi-gb"></span>
       </div>
-      <div class="day-night s-icon">
+      <div class="switcher-menu language-menu">
+        <span class="fi fi-gb" data-lang="en" title="English"></span>
+        <span class="fi fi-fr" data-lang="fr" title="Français"></span>
+        <span class="fi fi-br" data-lang="pt-br" title="Português"></span>
+      </div>
+    </div>
+
+    <!-- Theme Switcher (Dark/Light) -->
+    <div class="switcher-item theme-switcher-container">
+      <div class="switcher-btn theme-btn">
         <i class="fas fa-sun"></i>
       </div>
+    </div>
 
-      <h4>Languages</h4>
-      <div class="language-switcher">
-        <span class="fi fi-gb" onclick="setLanguage('en')"></span>
-        <span class="fi fi-fr" onclick="setLanguage('fr')"></span>
-        <span class="fi fi-br" onclick="setLanguage('pt-br')"></span>
+    <!-- Color Switcher -->
+    <div class="switcher-item color-switcher-container">
+      <div class="switcher-btn color-btn">
+        <span class="color-preview"></span>
       </div>
-
-      <h4>Theme Colors</h4>
-      <div class="colors">
-        <span class="color-1" onclick="setThemeColor('color-1')"></span>
-        <span class="color-2" onclick="setThemeColor('color-2')"></span>
-        <span class="color-3" onclick="setThemeColor('color-3')"></span>
-        <span class="color-4" onclick="setThemeColor('color-4')"></span>
-        <span class="color-5" onclick="setThemeColor('color-5')"></span>
+      <div class="switcher-menu color-menu">
+        <span class="color-option color-1" data-color="color-1" title="Red"></span>
+        <span class="color-option color-2" data-color="color-2" title="Orange"></span>
+        <span class="color-option color-3" data-color="color-3" title="Green"></span>
+        <span class="color-option color-4" data-color="color-4" title="Blue"></span>
+        <span class="color-option color-5" data-color="color-5" title="Pink"></span>
       </div>
     </div>
   </div>

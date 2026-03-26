@@ -1,87 +1,186 @@
-.style-switcher {
+/* Switcher Items Container */
+.switcher-item {
   position: fixed;
   right: 0;
-  top: 60px;
-  padding: 15px;
-  width: 200px;
-  border: 1px solid var(--bg-black-50);
-  background: var(--bg-black-100);
   z-index: 101;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.language-switcher-container {
+  top: 60px;
+}
+
+.theme-switcher-container {
+  top: 125px;
+}
+
+.color-switcher-container {
+  top: 190px;
+}
+
+/* Switcher Button (Main Circle) */
+.switcher-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: var(--bg-black-100);
+  border: 2px solid var(--bg-black-50);
+  color: var(--text-black-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
   transition: all 0.3s ease;
-  transform: translateX(100%);
+  font-size: 24px;
+  flex-shrink: 0;
 }
 
-.style-switcher.open {
-  transform: translateX(-25px);
+.switcher-btn:hover {
+  background: var(--bg-black-50);
+  border-color: var(--text-black-900);
 }
 
-.style-switcher .s-icon {
+/* Switcher Menu (Dropdown) */
+.switcher-menu {
   position: absolute;
+  right: 100%;
+  background: var(--bg-black-100);
+  border: 2px solid var(--bg-black-50);
+  border-radius: 12px;
+  padding: 12px;
+  display: none;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  animation: slideIn 0.3s ease;
+  margin-right: 12px;
+  min-width: fit-content;
+  white-space: nowrap;
+}
+
+.switcher-menu.active {
+  display: flex;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Language Menu */
+.language-menu {
+  gap: 10px;
+}
+
+.language-menu span {
+  display: inline-flex;
+  font-size: 28px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px solid transparent;
+}
+
+.language-menu span:hover {
+  border-color: var(--text-black-900);
+  transform: scale(1.1);
+}
+
+/* Theme Menu */
+.theme-menu {
+  gap: 10px;
+}
+
+.theme-option {
   height: 40px;
   width: 40px;
-  text-align: center;
-  font-size: 20px;
-  background: var(--bg-black-100);
+  border-radius: 50%;
+  background: var(--bg-black-50);
+  border: 2px solid var(--bg-black-50);
   color: var(--text-black-900);
-  right: 100%;
-  border: 1px solid var(--bg-black-50);
-  margin-right: 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 50%;
-}
-
-.style-switcher .s-icon i {
-  line-height: 40px;
-}
-
-.style-switcher .style-switcher-toggler {
-  top: 0;
-}
-
-.style-switcher .day-night {
-  top: 55px;
-}
-
-.style-switcher h4 {
-  margin: 0 0 10px;
-  color: var(--text-black-700);
-  font-size: 16px;
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-.style-switcher .colors {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.style-switcher .colors span {
-  display: inline-block;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  border: 1px solid var(--bg-black-50);
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 18px;
 }
 
-.style-switcher .color-1 {
+.theme-option:hover {
+  background: var(--text-black-700);
+  color: var(--bg-black-100);
+}
+
+/* Color Menu */
+.color-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.color-option {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.color-option:hover {
+  transform: scale(1.15);
+  border-color: var(--text-black-900);
+}
+
+/* Color Preview in Main Button */
+.color-preview {
+  display: block;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: #1854b4;
+  border: 2px solid transparent;
+}
+
+.switcher-btn.color-btn:hover .color-preview {
+  border-color: var(--text-black-900);
+}
+
+/* Color Classes */
+.color-1 {
   background: #ec1839;
 }
-.style-switcher .color-2 {
+
+.color-2 {
   background: #fa5b0f;
 }
-.style-switcher .color-3 {
+
+.color-3 {
   background: #37b182;
 }
-.style-switcher .color-4 {
+
+.color-4 {
   background: #1854b4;
 }
-.style-switcher .color-5 {
+
+.color-5 {
   background: #f021b2;
 }
 
+/* Dark Mode Variables */
 body.dark {
   --bg-black-900: #151515;
   --bg-black-100: #222222;
